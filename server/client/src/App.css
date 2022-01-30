@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header__logo{
+  font-family: 'Grand Hotel', cursive;
+  color: #fff;
+  letter-spacing: .7px;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.form__input{
+  padding: 13px;
+  margin: 7px;
+  background-color: transparent;
+  border: 1.4px solid #d579ac;
+  border-radius: 3px;
+  color: #fff;
+  width: 100%;
+}
+
+.form__input::placeholder{
+    color: #fff;
+}
+
+.form__wrapper
+  {
+    width: 70%;
+    margin: auto;
+    height:100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .home{
+
+  background:-moz-linear-gradient(90deg, #B4317F 0%, #B21E89 8%, #EE82EE 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, #B4317F 0%, #B21E89 8%, #EE82EE 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, #B4317F 0%, #B21E89 8%, #EE82EE 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE82EE', endColorstr='#B4317F', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, #B4317F 0%, #B21E89 8%, #EE82EE 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, #B4317F 0%, #B21E89 8%, #EE82EE 100%);
+  }
